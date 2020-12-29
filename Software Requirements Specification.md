@@ -29,13 +29,31 @@ The website should be accessible from a public URL.
 - guest - The role with least privileges
 ### 2. Overall Description
 ##### 2.1 User Needs
+Users need a way to access `gumshoe` from any device and anywhere in the world.
+
+Users need to have a way to create an account, log in, or demo the app without creating an account or logging in.
+
+Users need to create tickets, as well as modify existing tickets and delete them if necessary.
+
+Users need a dashboard to view information about tickets as a whole.
+
+User progress and data should be persisted, such that ticket information should be saved and viewable no matter where they are or what device they are using.
 ##### 2.2 Assumptions and Dependencies
-### 3. System Features and Requirements
+Usage of `gumshoe` is dependent on internet access and a modern web browser.
+### 3. Requirements
 ##### 3.1 Functional Requirements
-##### 3.2 External Interface Requirements
-##### 3.3 System Features
-##### 3.4 Nonfunctional Requirements
+Tickets
+
+Users
+
+User Interface
+
+Accessibility
+##### 3.3 Nonfunctional Requirements
+- The backend should be hosted on a backend-as-a-service platform, such as Firebase.
+- The frontend should be built in React (since this is what John has worked with)
+- To be continued...
 
 \
 \
-*This SRS outline is based on a Medium [article](https://medium.com/@vincetran_28429/software-requirements-specification-srs-document-fd9ab103b18)*
+*This SRS outline is partially based on a Medium [article](https://medium.com/@vincetran_28429/software-requirements-specification-srs-document-fd9ab103b18)*
